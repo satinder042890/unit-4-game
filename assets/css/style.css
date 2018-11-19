@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.jumbotron{
+    background-color: #cccccc;
+    padding-top: 5px;
+}
+#randomArea{
+    background: turquoise;
+    color:tomato;  
+    width:100%;
+    text-align: center;
+    padding:13% 5% 13% 5%;
+    margin-bottom: 15px;
+    height:90%;
+}
+#winLose{
+    background: rgb(71, 77, 76);
+    color:tomato;  
+    width:100%;
+    text-align: center;
+    padding:2% 2% 2% 2%;
+    margin-bottom: 15px;
+    height:90%;
+}
+#scoreArea{
+    background: turquoise;
+    color:tomato;  
+    width:100%;
+    text-align: center;
+    padding:6% 5% 6% 5%;
+    margin-bottom: 15px;
+    height:90%;
+}
+img{
+    height:150px;
+    width:100%;
+}
