@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background: url("http://images5.fanpop.com/image/photos/25900000/Make-it-bubble-powerpuff-girls-25913469-500-236.gif");
+}
 .jumbotron{
     background-color: #cccccc;
     padding-top: 5px;
@@ -33,6 +36,6 @@
     height:90%;
 }
 img{
-    height:150px;
+    height:120px;
     width:100%;
 }
