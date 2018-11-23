@@ -66,40 +66,7 @@ var rValue;
  }
 
 
- //when button is clicked, it add the value of that button to total score
-//  function addValueToScore()
-//  {
-//     changeWinLose(); 
-//     $("#bt1").on("click" , function()
-//      {
-//          changeWinLose(); 
-//          score=score+button1;
-//          $("#score").html(score);
-//          console.log(score);
-//      });
-//      $("#bt2").on("click" , function()
-//      {
-//         changeWinLose(); 
-//         score=score+button2;
-//          $("#score").html(score);
-//          console.log(score);
-//      });
-//      $("#bt3").on("click" , function()
-//      {
-//         changeWinLose(); 
-//         score=score+button3;
-//          $("#score").html(score);
-//          console.log(score);
-//      });
-//      $("#bt4").on("click" , function()
-//      {
-//         changeWinLose();  
-//         score=score+button4;
-//          $("#score").html(score);
-//          console.log(score);
-//      });  
-//  }
-
+ 
  //function to restart the game when player lose or win everytime
  function restartGame()
  {
@@ -113,7 +80,11 @@ var rValue;
  {
       randomGenerater();
       crystalValue();
-     // addValueToScore();
+     $("#rules").on("click",function()
+     {
+        $("p").slideToggle("slow");
+     });
+
      $("#bt1,#bt2,#bt3,#bt4").on("click",function()
      {
         var d=parseInt(this.value);
