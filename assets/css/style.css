@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url("http://images5.fanpop.com/image/photos/25900000/Make-it-bubble-powerpuff-girls-25913469-500-236.gif");
+    background: url("../images/bg2.jpg");
 }
 p{
     display: none;
@@ -41,4 +41,9 @@ p{
 img{
     height:120px;
     width:100%;
+}
+.blink{
+    color:red;
+    font-size: 40px;
+  /* border: 2px solid rgb(117, 37, 37); */
 }

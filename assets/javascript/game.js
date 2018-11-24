@@ -76,11 +76,19 @@ var rValue;
      randomGenerater();
      crystalValue();
  }
+
+ function blink_text() 
+ {
+    $('.blink').fadeOut(500);
+    $('.blink').fadeIn(500);
+ }
+
  $(document).ready (function()
  {
+      setInterval(blink_text, 1000);
       randomGenerater();
       crystalValue();
-     $("#rules").on("click",function()
+     $(".blink").on("click",function()
      {
         $("p").slideToggle("slow");
      });
